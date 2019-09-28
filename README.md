@@ -79,12 +79,12 @@ countChar("berbelanja ke pasar","r") -> 2
 
 <h4>web statis</h4>
 
-web statis bisa dijalankan secara lokal tanpa database
+web statis bisa dijalankan secara lokal tanpa database silahkan download file - filenya di folder <b>web_statis</b>
 
 <h4>web dinamis</h4>
 
 untuk menjalankan web dinamis , anda harus mendwonload file database pada folder database dan import ke phpmyadmin lokal anda
 
-setting password dan username database ada pada file <h3>connect.php</h3> di dalam folder web_dinamis
+setting password dan username database ada pada file <b>connect.php</b> di dalam folder <b>web_dinamis</b>
 
 
