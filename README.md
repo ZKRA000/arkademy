@@ -77,4 +77,14 @@ countChar("berbelanja ke pasar","a") -> 4 <br>
 countChar("berbelanja ke pasar","r") -> 2
 
 
+<h4>web statis</h4>
+
+web statis bisa dijalankan secara lokal tanpa database
+
+<h4>web dinamis</h4>
+
+untuk menjalankan web dinamis , anda harus mendwonload file database pada folder database dan import ke phpmyadmin lokal anda
+
+setting password dan username database ada pada file <h3>connect.php</h3> di dalam folder web_dinamis
+
 
