@@ -16,7 +16,7 @@ jika string parameter tberisi angka/symbol misal (joko89,resa67,dani$9) maka aka
 
 <i>misal</i>
 
-is_username_valid('tito879') -> false
+is_username_valid('tito879') -> false <br>
 is_username_valid('tito') -> true
 
 nama function kedua <b><i>is_password_valid(password)</b></i> dengan parameter string 
@@ -27,7 +27,7 @@ jika string parameternya tidak lengkap seperti di atas maka akan return "false"
 
 <i>misal</i>
 
-is_password_valid(7$dindaA) -> true
+is_password_valid(7$dindaA) -> true <br>
 is_username_valid(tito879) -> false
 
 
@@ -41,7 +41,7 @@ tapi jika string parameter berisi angka misal (resa46,tito879) maka function aka
 
 <i>misal</i>
 
-sortNumber('tito879') -> 789
+sortNumber('tito879') -> 789 <br>
 sortNumber('resa64') -> 64
 
 
@@ -57,7 +57,7 @@ fungsi dari function ini adalah meng output kan angka terbesar urutan ke 3
 
 <i>misal</i>
 
-thirdHighest([0,'a',4,5]) -> 5
+thirdHighest([0,'a',4,5]) -> 5 <br>
 thirdHighest([0,'a',-1,1]) -> 1
 
 
@@ -73,7 +73,7 @@ fungsi dari function ini adalah meng output kan jumlah character yang ada dalam 
 
 <i>misal</i>
 
-countChar("berbelanja ke pasar","a") -> 4
+countChar("berbelanja ke pasar","a") -> 4 <br>
 countChar("berbelanja ke pasar","r") -> 2
 
 
