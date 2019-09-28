@@ -14,7 +14,10 @@ string username harus berjumlah 6 digit berisi huruf kecil dan besar dan tidak b
 
 jika string parameter tberisi angka/symbol misal (joko89,resa67,dani$9) maka akan return "false"
 
-function langsung meng 'echo' hasil tanpa menuliskan syntax 'echo'
+<i>misal</i>
+
+is_username_valid('tito879') -> false
+is_username_valid('tito') -> true
 
 nama function kedua <b><i>is_password_valid(password)</b></i> dengan parameter string 
 
@@ -22,15 +25,56 @@ string username harus berjumlah 5-10 digit berisi huruf kecil,besar,symbol dan d
 
 jika string parameternya tidak lengkap seperti di atas maka akan return "false"
 
-function langsung meng 'echo' hasil tanpa menuliskan syntax 'echo'
+<i>misal</i>
+
+is_password_valid(7$dindaA) -> true
+is_username_valid(tito879) -> false
+
 
 <h4>3.php</h4>
  
-nama function pertama <b><i>sortNumber(number)</i></b> dengan parameter string berisi number (boleh pakai nomor saja)
+nama function <b><i>sortNumber(number)</i></b> dengan parameter string berisi number (boleh pakai nomor saja)
 
 jika string parameter tidak berisi angka misal (joko,resa,dani) maka akan muncul error "no number found in parameter !"
 
-tapi jika string parameter berisi angka misal (resa46,tito879) maka function akan megurutkan angka yang terdapat pada parameter dan meng echo nya misal 'resa46' => '46' ,'tito'879' => '789'
+tapi jika string parameter berisi angka misal (resa46,tito879) maka function akan megurutkan angka yang terdapat pada parameter
 
-function langsung meng 'echo' hasil tanpa menuliskan syntax 'echo'
+<i>misal</i>
+
+sortNumber('tito879') -> 789
+sortNumber('resa64') -> 64
+
+
+<h4>4.php</h4>
+ 
+nama function <b><i>thirdHighest(array_number)</i></b> dengan parameter array berisi number dan minimal harus berisi 3 angka / 3 index
+
+jika jumlah value dalam array kurang dari 3 misal ([1,3]) maka akan muncul error 'Minimal array length is 3!'
+
+dan jika jumlah value bukan array misal ("string",123) maka akan muncul error 'Parameter should be an array!'
+
+fungsi dari function ini adalah meng output kan angka terbesar urutan ke 3
+
+<i>misal</i>
+
+thirdHighest([0,'a',4,5]) -> 5
+thirdHighest([0,'a',-1,1]) -> 1
+
+
+<h4>5.php</h4>
+
+nama function <b><i>countChar(string,character)</i></b> berisi 2 parameter 
+
+parameter pertama adalah string biasa misal ("berbelanja ke pasar","pergi membeli baju")
+
+paramater kedua adalah character yang kita cari di dalam paramter pertama
+
+fungsi dari function ini adalah meng output kan jumlah character yang ada dalam string
+
+<i>misal</i>
+
+countChar("berbelanja ke pasar","a") -> 4
+countChar("berbelanja ke pasar","r") -> 2
+
+
 
