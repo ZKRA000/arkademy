@@ -1,29 +1,17 @@
 <?php
 
-function buyNoodle($date,$money){
+function countChar($string,$char){
 
-  $harga_mie = 2500;
-  $jumlah_mie = floor($money / 2500);
-  $tanggal = $date % 2 == 0 ? 'genap':'ganjil';
+  $total = substr_count($string,$char);
 
-  if($tanggal == 'genap'){
-    if($date % 5 == 0){
-      $bonus = floor($jumlah_mie / 4) * 10;
-      return $jumlah_mie += $bonus;
-    }else{
-      return $jumlah_mie += floor($jumlah_mie / 4);
-    }
-  }else if($tanggal == 'ganjil'){
-    if($date % 5 == 0){
-      $bonus = floor($jumlah_mie / 3) * 10;
-      return $jumlah_mie += $bonus;
-    }else{
-      return $jumlah_mie += floor($jumlah_mie / 3);
-    }
+  if($total == 0 ){
+    echo "Not found!";
+  }else{
+    echo $total;
   }
 
 }
 
-echo buyNoodle(16,40000);
+countChar('zaka','a');
 
 ?>

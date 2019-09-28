@@ -1,18 +1,41 @@
 <?php
 
-function count_handshaker($jumlah_orang){
+function sortNumber($string){
 
-  $jumlah_perulangan = $jumlah_orang - 1;
+  $length = strlen($string);
   $total = 0;
+  $arr = array();
+  $text = '';
 
-  for($x = 0;$x <= $jumlah_perulangan;$x++){
-     $total += $x;
-  }
+    if(preg_match("/([0-9])/",$string)){
 
-  return $total;
+    for($x = 0;$x < $length;$x++){
+
+      if(preg_match("/([0-9])/",$string[$x])){
+
+        $arr[] = $string[$x];
+
+      }
+
+    }
+
+    sort($arr);
+
+    for($x = 0;$x < count($arr);$x++){
+
+        $text .= $arr[$x];
+
+    }
+
+     echo $text;
+
+    }else{
+
+      echo "No number found in parameter!";
+    }
 
 }
 
-echo count_handshaker(4);
+sortNumber('hallo');
 
 ?>
