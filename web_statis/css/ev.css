@@ -1,0 +1,15 @@
+.modal-header{
+  border-bottom: 0;
+}
+
+.modal-footer{
+  border-top: 0;
+}
+
+#check{
+  font-size: 7rem;
+}
+
+#success{
+  text-align: center;
+}
