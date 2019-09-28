@@ -1,12 +1,12 @@
-Cara Menjalankan Aplikasi
+<h3>Cara Menjalankan Aplikasi</h3>
 
-1.php
+<h4>1.php</h4>
 
 nama function json_response() dengan parameter array object
 
 function langsung meng 'echo' hasil tanpa menuliskan syntax 'echo'
 
-2.php
+<h4>2.php/h4>
 
 nama function pertama <b>is_username_valid(username)</b> dengan parameter string
 
